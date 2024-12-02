@@ -1,0 +1,26 @@
+server/
+├── src/
+│   ├── config/
+│   │   ├── database.ts
+│   │   └── environment.ts
+│   ├── middleware/
+│   │   ├── auth.ts
+│   │   ├── error.ts
+│   │   └── validation.ts
+│   ├── models/
+│   │   └── user.ts
+│   ├── routes/
+│   │   ├── auth.ts
+│   │   ├── users.ts
+│   │   └── index.ts
+│   ├── services/
+│   │   ├── auth.ts
+│   │   └── user.ts
+│   ├── utils/
+│   │   ├── jwt.ts
+│   │   └── password.ts
+│   └── app.ts
+├── migrations/
+│   └── 001_create_users.sql
+├── package.json
+└── tsconfig.json 
